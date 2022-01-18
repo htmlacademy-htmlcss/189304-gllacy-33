@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
-* Студент: [Павел Полубаркин](https://up.htmlacademy.ru/htmlcss/33/user/189304).
-* Наставник: `Неизвестно`.
+- Студент: [Павел Полубаркин](https://up.htmlacademy.ru/htmlcss/33/user/189304).
+- Наставник: [Юрий Зайцев](https://htmlacademy.ru/profile/yuryzaytsev).
 
 ---
 
