@@ -44,9 +44,6 @@
     <section class="ice-cream-slider">
       <h2 class="visually-hidden">Варианты мороженого</h2>
       <div class="slider">
-        <button type="slider-button">
-          <span class="visually-hidden">Назад</span>
-        </button>
         <ul class="ice-cream-list">
           <li class="ice-cream-item">
             <h3 class="ice-cream-title">Нежный пломбир с клубничным джемом</h3>
@@ -54,8 +51,8 @@
               Натуральное мороженое из свежих сливок и молока с вкуснейшим
               клубничным джемом – это идеальный десерт для всей семьи.
             </p>
-            <a class="button" href="#">Заказать</a>
             <img class="ice-cream-image" src="" alt="Нежный пломбир с клубничным джемом">
+            <a class="button" href="#">Заказать</a>
           </li>
           <li class="ice-cream-item">
             <h3 class="ice-cream-title">Сливочное мороженое со вкусом банана</h3>
@@ -63,9 +60,8 @@
               Сливочное мороженое с ярким банановым вкусом подарит вам
               свежесть и наслаждение даже в самый жаркий летний день.
             </p>
-            <a class="button" href="#">Заказать</a>
             <img class="ice-cream-image" src="" alt="Сливочное мороженое со вкусом банана">
-            />
+            <a class="button" href="#">Заказать</a>
           </li>
           <li class="ice-cream-item">
             <h3 class="ice-cream-title">Карамельный пломбир с маршмеллоу</h3>
@@ -73,13 +69,29 @@
               Необычный сладкий десерт с карамельным топпингом и кусочками
               зефира завоюет сердца сладкоежек всех возрастов.
             </p>
-            <a class="button" href="#">Заказать</a>
             <img class="ice-cream-image" src="" alt="Карамельный пломбир с маршмеллоу">
+            <a class="button" href="#">Заказать</a>
           </li>
         </ul>
-        <button type="slider-button">
-          <span class="visually-hidden">Вперед</span>
-        </button>
+        <p class="slider-toggles">
+          <button class="arrow-toggle toggle-prev" type="button">
+            <span class="visually-hidden">Предыдущий слайд</span>
+          </button>
+          <button class="arrow-toggle toggle-next" type="button">
+            <span class="visually-hidden">Следующий слайд</span>
+          </button>
+        </p>
+        <p class="slider-pagination">
+          <button class="pagination-toggle" type="button">
+            <span class="visually-hidden">Слайд 1</span>
+          </button>
+          <button class="pagination-toggle" type="button">
+            <span class="visually-hidden">Слайд 2</span>
+          </button>
+          <button class="pagination-toggle" type="button">
+            <span class="visually-hidden">Слайд 3</span>
+          </button>
+        </p>
       </div>
       <ul class="social-list">
         <li class="social-item">
@@ -202,7 +214,9 @@
     <div class="blog">
       <article>
         <p>Новое в нашем блоге</p>
-        <h3 class="blog-heading">10 способов сервировки фруктовых щербетов к столу</h3>
+        <h3 class="blog-heading">
+          <a href="#">10 способов сервировки фруктовых щербетов к столу</a>
+        </h3>
       </article>
       <article>
         <p>
@@ -212,8 +226,7 @@
         </p>
         <form action="https://echo.htmlacademy.ru" method="post">
           <label class="visually-hidden" for="subscribe-email">Почта</label>
-          <input class="input" id="subscribe-email" type="email" name="subscribe-email"
-            placeholder="email@example.com" />
+          <input class="input" id="subscribe-email" type="email" name="subscribe-email" placeholder="email@example.com">
           <button class="button" type="submit">Отправить</button>
         </form>
       </article>
