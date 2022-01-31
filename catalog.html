@@ -8,7 +8,7 @@
 
 <body>
   <header class="header">
-    <a class="logo-link" href="/">
+    <a class="logo-link" href="index.html">
       <img class="logo-image" alt="Глейси">
     </a>
     <nav class="navigation">
@@ -41,7 +41,7 @@
   </header>
   <main class="main-inner">
     <header class="inner-header">
-      <h1 class="visually-hidden">Каталог</h1>
+      <h1 class="inner-header-title">Сливочное Мороженное</h1>
       <ul class="breadcrumbs">
         <li class="breadcrumbs-item">
           <a class="breadcrumbs-link" href="index.html">Главная</a>
@@ -50,24 +50,23 @@
           <a class="breadcrumbs-link" href="#">Каталог</a>
         </li>
         <li class="breadcrumbs-item">
-          <a class="breadcrumbs-link" href="#">Сливочное</a>
+          <a class="breadcrumbs-link">Сливочное</a>
         </li>
       </ul>
-      <h2 class="inner-header-title">Сливочное Мороженное</h1>
     </header>
     <section class="catalog-products">
       <h2 class="visually-hidden">Список товаров с фильтрами</h2>
       <form class="form-filters" action="https://echo.htmlacademy.ru/" method="get">
         <fieldset class="catalog-filter-group">
-          <legend class="catalog-filter-title">Сортировка:</legend>
-          <label class="control">
-            <select name="sorting">
-              <option value="popularity">по популярности</option>
-              <option value="name">по наименованию</option>
-              <option value="cheap">сначала недорогие</option>
-              <option value="expensive">сначала дорогие</option>
-            </select>
-          </label>
+          <legend class="catalog-filter-title">
+            <label for="input-select">Сортировка:</label>
+          </legend>
+          <select name="sorting" id="input-select">
+            <option value="popularity">По популярности</option>
+            <option value="name">По наименованию</option>
+            <option value="cheap">Сначала недорогие</option>
+            <option value="expensive">Сначала дорогие</option>
+          </select>
         </fieldset>
         <fieldset class="catalog-filter-group">
           <legend class="catalog-filter-title">Цена: 100 ₽ – 500 ₽</legend>
@@ -87,19 +86,19 @@
             <li class="catalog-filter-item">
               <label class="control">
                 <input class="control-input" type="checkbox" name="0-10" checked>
-                до 10%
+                До 10%
               </label>
             </li>
             <li class="catalog-filter-item">
               <label class="control">
                 <input class="control-input" type="checkbox" name="10-30">
-                до 30%
+                До 30%
               </label>
             </li>
             <li class="catalog-filter-item">
               <label class="control">
                 <input class="control-input" type="checkbox" name="30+">
-                выше 30%
+                Выше 30%
               </label>
             </li>
           </ul>
@@ -110,31 +109,31 @@
             <li class="catalog-filter-item">
               <label class="control">
                 <input class="control-input" type="checkbox" name="chocolate" checked>
-                шоколадные
+                Шоколадные
               </label>
             </li>
             <li class="catalog-filter-item">
               <label class="control">
                 <input class="control-input" type="checkbox" name="sugar-sprinkles" checked>
-                сахарные посыпки
+                Сахарные посыпки
               </label>
             </li>
             <li class="catalog-filter-item">
               <label class="control">
                 <input class="control-input" type="checkbox" name="fruits">
-                фрукты
+                Фрукты
               </label>
             </li>
             <li class="catalog-filter-item">
               <label class="control">
                 <input class="control-input" type="checkbox" name="syrups">
-                сиропы
+                Сиропы
               </label>
             </li>
             <li class="catalog-filter-item">
               <label class="control">
                 <input class="control-input" type="checkbox" name="jams">
-                джемы
+                Джемы
               </label>
             </li>
           </ul>
