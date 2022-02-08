@@ -1,0 +1,267 @@
+@font-face {
+  font-family: "inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/inter-400.woff2) format(woff2);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "inter";
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/inter-700.woff2) format(woff2);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "inter";
+  font-style: normal;
+  font-weight: 900;
+  src: url(../fonts/inter-900.woff2) format(woff2);
+  font-display: swap;
+}
+
+body {
+  font-family: "inter", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  color: #565c66;
+  background-color: #feafc3;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.address {
+  font-style: normal;
+}
+
+input::placeholder {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.visually-hidden {
+  display: none;
+}
+
+.navigation-link {
+  line-height: 20px;
+}
+
+.telephone {
+  font-weight: 700;
+  line-height: 20px;
+  color: #2d3440;
+}
+
+.user-navigation-link {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.ice-cream-title {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 46px;
+  color: #2d3440;
+}
+
+.ice-cream-description {
+  font-size: 18px;
+  line-height: 24px;
+  color: #2d3440;
+}
+
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #2d3440;
+  background: #fcfcfc;
+  border: 4px solid rgba(252, 252, 252, 0.4);
+  box-shadow: 0px 4px 12px rgba(45, 52, 64, 0.1);
+  border-radius: 26px;
+  cursor: pointer;
+}
+
+.heading {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 46px;
+  text-align: center;
+  color: #2d3440;
+}
+
+.gift-list-item {
+  border-radius: 16px;
+}
+
+.gift-list-item:first-child {
+  background: url(../images/raspberry.png) #ff7799 no-repeat top right;
+  background-size: 232px 359px;
+}
+
+.gift-list-item:nth-child(2) {
+  background: url(../images/marshmallows.png) #ff7799 no-repeat top right;
+  background-size: 232px 359px;
+}
+
+.gift-list-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #2d3440;
+}
+
+.gift-list-description {
+  color: #2d3440;
+}
+
+.product-item,
+.popular-ice-cream-item {
+  background: #fcfcfc;
+  border-radius: 8px;
+}
+
+.product-title,
+.popular-ice-cream-title {
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #2d3440;
+}
+
+.product-description,
+.popular-ice-cream-description {
+  text-align: center;
+}
+
+.product-price,
+.popular-ice-cream-price {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2d3440;
+}
+
+.features-list {
+  background: #fcfcfc;
+  border-radius: 16px;
+}
+
+.new-blog-post {
+  background: url(../images/blog-post-background.jpg) no-repeat center;
+  background-size: cover;
+  border-radius: 16px;
+}
+
+.new-blog-post-description {
+  line-height: 20px;
+}
+
+.blog-heading {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #2d3440;
+}
+
+.blog-emailing {
+  background: #fcfcfc;
+  border-radius: 16px;
+}
+
+.second-button {
+  color: #fcfcfc;
+  background: #ff2f64;
+  border: 4px solid rgba(255, 47, 100, 0.3);
+  box-shadow: 0px 4px 12px rgba(45, 52, 64, 0.1);
+  border-radius: 26px;
+}
+
+.delivery {
+  background: url(../images/shipping-background.jpg) no-repeat center;
+  background-size: cover;
+  border-radius: 16px;
+}
+
+.form-delivery {
+  background: #fcfcfc;
+  border-radius: 8px;
+}
+
+.label {
+  font-weight: 700;
+  line-height: 20px;
+  color: #2d3440;
+}
+
+.contact {
+  background: url(../images/contacts-background.jpg) no-repeat center;
+  background-size: cover;
+  border-radius: 16px;
+}
+
+.address {
+  background: #fcfcfc;
+  border-radius: 8px;
+}
+
+.address-content {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2d3440;
+}
+
+.address-content-telephone {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2d3440;
+}
+
+.address-link > span {
+  font-weight: initial;
+  font-size: initial;
+  line-height: initial;
+  color: initial;
+}
+
+.help-link-item {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.help-link-item.love {
+  font-size: 14px;
+  line-height: 20px;
+  color: #2d3440;
+}
+
+.made-in-htmlacademy {
+  font-size: 12px;
+  line-height: 16px;
+  color: #2d3440;
+}
+
+.breadcrumbs-item {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #2d3440;
+}
+
+.pagination-item {
+  line-height: 20px;
+  color: #2d3440;
+}

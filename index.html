@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Глейси</title>
+  <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body>
@@ -118,7 +119,7 @@
       <h2 class="visually-hidden">Специальные предложения.</h2>
       <p class="heading">Заказывайте мороженое и получайте подарки!</p>
       <ul class="gift-list">
-        <li class="gift-list-item">
+        <li class="gift-list-item raspberry">
           <h3 class="gift-list-title">Малинка даром!</h3>
           <p class="gift-list-description">
             При покупке 2 кг любого фруктового мороженого добавим в ваш заказ
@@ -214,13 +215,13 @@
       </ul>
     </section>
     <div class="blog">
-      <article>
-        <p>Новое в нашем блоге</p>
+      <article class="new-blog-post">
+        <p class="new-blog-post-description">Новое в нашем блоге</p>
         <h3 class="blog-heading">
           <a href="#">10 способов сервировки фруктовых щербетов к столу</a>
         </h3>
       </article>
-      <article>
+      <article class="blog-emailing">
         <p>
           Подпишитесь на нашу сладкую рассылку и будьте всегда в курсе всего
           самого вкусного, что у нас происходит. Обещаем не спамить и не слать
@@ -229,7 +230,7 @@
         <form action="https://echo.htmlacademy.ru" method="post">
           <label class="visually-hidden" for="subscribe-email">Почта</label>
           <input class="input" id="subscribe-email" type="email" name="subscribe-email" placeholder="email@example.com">
-          <button class="button" type="submit">Отправить</button>
+          <button class="button second-button" type="submit">Отправить</button>
         </form>
       </article>
     </div>
@@ -261,7 +262,7 @@
           <input class="input" id="delivery-address" type="text" name="delivery-address"
             placeholder="ул. Большая Конюшенная, 19/8" required />
         </label>
-        <button class="button" type="submit">Отправить</button>
+        <button class="button second-button" type="submit">Отправить</button>
       </form>
     </section>
     <section class="contact">
@@ -279,7 +280,7 @@
           </a>
         </p>
       </address>
-      <a class="button" href="#">Форма обратной связи</a>
+      <a class="button second-button" href="#">Форма обратной связи</a>
     </section>
   </main>
   <footer class="footer">
@@ -301,7 +302,7 @@
       </li>
     </ul>
     <ul class="help-link-list">
-      <li class="help-link-item">
+      <li class="help-link-item love">
         <a class="help-link-link" href="#">
           Для поставщиков
         </a>
@@ -321,7 +322,7 @@
         <img class="image-logo-htmlacademy" src="images/icon/logo-htmlacademy.svg" width="93" height="27"
           alt="Логотип Академии.">
       </a>
-      <p>
+      <p class="made-in-htmlacademy">
         Сделано в <a class="link-htmlacademy" href="https://htmlacademy.ru/">.html academy</a> © 2022
       </p>
     </div>
