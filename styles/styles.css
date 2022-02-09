@@ -1,29 +1,29 @@
 @font-face {
-  font-family: "inter";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  src: url(../fonts/inter-400.woff2) format(woff2);
+  src: url("../fonts/inter-400.woff2") format("woff2");
   font-display: swap;
 }
 
 @font-face {
-  font-family: "inter";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  src: url(../fonts/inter-700.woff2) format(woff2);
+  src: url("../fonts/inter-700.woff2") format("woff2");
   font-display: swap;
 }
 
 @font-face {
-  font-family: "inter";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 900;
-  src: url(../fonts/inter-900.woff2) format(woff2);
+  src: url("../fonts/inter-900.woff2") format("woff2");
   font-display: swap;
 }
 
 body {
-  font-family: "inter", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   line-height: 22px;
   color: #565c66;
@@ -49,7 +49,16 @@ input::placeholder {
 }
 
 .visually-hidden {
-  display: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .navigation-link {
@@ -81,6 +90,7 @@ input::placeholder {
 }
 
 .button {
+  padding: 12px 32px;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -106,12 +116,12 @@ input::placeholder {
 }
 
 .gift-list-item:first-child {
-  background: url(../images/raspberry.png) #ff7799 no-repeat top right;
+  background: url("../images/raspberry.png") #ff7799 no-repeat top right;
   background-size: 232px 359px;
 }
 
 .gift-list-item:nth-child(2) {
-  background: url(../images/marshmallows.png) #ff7799 no-repeat top right;
+  background: url("../images/marshmallows.png") #ff7799 no-repeat top right;
   background-size: 232px 359px;
 }
 
@@ -159,7 +169,7 @@ input::placeholder {
 }
 
 .new-blog-post {
-  background: url(../images/blog-post-background.jpg) no-repeat center;
+  background: url("../images/blog-post-background.jpg") no-repeat center;
   background-size: cover;
   border-radius: 16px;
 }
@@ -189,7 +199,7 @@ input::placeholder {
 }
 
 .delivery {
-  background: url(../images/shipping-background.jpg) no-repeat center;
+  background: url("../images/shipping-background.jpg") no-repeat center;
   background-size: cover;
   border-radius: 16px;
 }
@@ -205,8 +215,13 @@ input::placeholder {
   color: #2d3440;
 }
 
+.form-delivery input {
+  font-size: inherit;
+  line-height: inherit;
+}
+
 .contact {
-  background: url(../images/contacts-background.jpg) no-repeat center;
+  background: url("../images/contacts-background.jpg") no-repeat center;
   background-size: cover;
   border-radius: 16px;
 }
@@ -243,6 +258,7 @@ input::placeholder {
 }
 
 .help-link-item.love {
+  font-weight: 700;
   font-size: 14px;
   line-height: 20px;
   color: #2d3440;
@@ -254,14 +270,42 @@ input::placeholder {
   color: #2d3440;
 }
 
+.link-htmlacademy {
+  border-bottom: 1px solid #2d3440;
+}
+
 .breadcrumbs-item {
   font-size: 14px;
   line-height: 20px;
-  font-weight: 700;
+  font-weight: 900;
   color: #2d3440;
 }
 
 .pagination-item {
+  line-height: 20px;
+  color: #2d3440;
+}
+
+.inner-header-title {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 46px;
+}
+
+.catalog-filter-title {
+  font-size: 14px;
+  line-height: 20px;
+  color: #2d3440;
+}
+
+.form-filters select {
+  font-size: 14px;
+  line-height: 20px;
+  color: #2d3440;
+}
+
+.control {
+  font-size: 14px;
   line-height: 20px;
   color: #2d3440;
 }
